@@ -64,13 +64,13 @@ CREATE TABLE `tb_login` (
 --
 
 INSERT INTO `tb_login` (`id_teknisi`, `sandi`, `nama`, `jenkel`, `hp`, `alamat`) VALUES
-('T01', '123', 'Ahmad Nur Latif P', 'Laki-Laki', '081949452687', 'Jl Jatipadang Raya, Pasar Minggu, Jakarta Selatan'),
-('T02', '123', 'Martin Aron Samuel', 'Laki-Laki', '081212341234', 'Jl.Suka-suka'),
-('T03', '123', 'Elon Musk', 'Laki-Laki', '081911111111', 'Jl.Starling,Depok,Indonesia'),
-('T04', '123', 'Amelia', 'Perempuan', '123412341234', 'jakarta'),
-('T05', '123', 'Naafira', 'Perempuan', '123412341234353', 'Depok'),
-('T09', '123', 'Yoga', 'Laki-Laki', '089699661784', 'jln.Raya Condet'),
-('T10', '123', 'Gilang', 'Laki-Laki', '12341234', 'Jakarta');
+('T01', 'DemoOnly2026!', 'Teknisi Demo 01', 'Laki-Laki', '080000000001', 'Alamat Contoh 01'),
+('T02', 'DemoOnly2026!', 'Teknisi Demo 02', 'Laki-Laki', '080000000002', 'Alamat Contoh 02'),
+('T03', 'DemoOnly2026!', 'Teknisi Demo 03', 'Laki-Laki', '080000000003', 'Alamat Contoh 03'),
+('T04', 'DemoOnly2026!', 'Teknisi Demo 04', 'Perempuan', '080000000004', 'Alamat Contoh 04'),
+('T05', 'DemoOnly2026!', 'Teknisi Demo 05', 'Perempuan', '080000000005', 'Alamat Contoh 05'),
+('T09', 'DemoOnly2026!', 'Teknisi Demo 06', 'Laki-Laki', '080000000006', 'Alamat Contoh 06'),
+('T10', 'DemoOnly2026!', 'Teknisi Demo 07', 'Laki-Laki', '080000000007', 'Alamat Contoh 07');
 
 -- --------------------------------------------------------
 
@@ -189,11 +189,11 @@ CREATE TABLE `tb_pelanggan` (
 --
 
 INSERT INTO `tb_pelanggan` (`id_pelanggan`, `nama_pelanggan`, `hp_pelanggan`, `jk_pelanggan`, `almt_pelanggan`, `tanggal_pelanggan`) VALUES
-('P1', 'Dimas', '081212341234', 'Laki-Laki', 'Jakarta Timur', '2025-04-19'),
-('P2', 'Krisna Murti', '081912341234', 'Laki-Laki', 'Depok, Jawa Barat', '2025-04-21'),
-('P3', 'Andini', '081212340055', 'Perempuan', 'Jakarta Barat', '2025-04-21'),
-('P4', 'Herlambang', '081212341234', 'Laki-Laki', 'Cilandak, Jakarta Selatan', '2025-04-30'),
-('P5', 'Sunanta', '12341234', 'Laki-Laki', 'Condet', '2025-06-25');
+('P1', 'Pelanggan Demo 01', '080000000101', 'Laki-Laki', 'Alamat Contoh 01', '2025-04-19'),
+('P2', 'Pelanggan Demo 02', '080000000102', 'Laki-Laki', 'Alamat Contoh 02', '2025-04-21'),
+('P3', 'Pelanggan Demo 03', '080000000103', 'Perempuan', 'Alamat Contoh 03', '2025-04-21'),
+('P4', 'Pelanggan Demo 04', '080000000104', 'Laki-Laki', 'Alamat Contoh 04', '2025-04-30'),
+('P5', 'Pelanggan Demo 05', '080000000105', 'Laki-Laki', 'Alamat Contoh 05', '2025-06-25');
 
 -- --------------------------------------------------------
 
